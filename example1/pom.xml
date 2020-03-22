@@ -8,7 +8,7 @@
   <packaging>jar</packaging>
 
   <name>example1</name>
-  <url>http://maven.apache.org</url>
+  <url>http://localhost:8081</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
