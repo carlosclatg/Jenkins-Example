@@ -21,6 +21,11 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+  <dependency>
+   <groupId>org.apache.maven.wagon</groupId>
+   <artifactId>wagon-ssh</artifactId>
+   <version>1.0-beta-7</version>
+ </dependency> 
   </dependencies>
 	
 <distributionManagement>
@@ -43,6 +48,7 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
+		
 <!--             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.19.1</version>
