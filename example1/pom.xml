@@ -40,14 +40,14 @@
                     <configuration>
 			    		<testFailureIgnore>true</testFailureIgnore>
 					</configuration>
-<!--                 <dependencies>
+                 <dependencies>
                     <dependency>
                         <groupId>org.junit.platform</groupId>
                         <artifactId>junit-platform-surefire-provider</artifactId>
                         <version>1.0.0-M3</version>
 
                     </dependency>
-                </dependencies> -->
+                </dependencies> 
             </plugin>
         </plugins>
     </build>
